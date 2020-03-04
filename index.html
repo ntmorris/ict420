@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Julius Caesar</title>
+    </head>
+    
+    <body>
         <h1>Julius Caesar</h1>
         <nav>
             <ul>
@@ -11,12 +14,13 @@
                 <li><a href=''>Index</a></li>
             </ul>
         </nav>
-    </head>
-    
-    <body>
         <h2>Welcome</h2>
         <p>This is a website about the life and accomplishments of Julius Caesar.</p>
-        <p>In 49 BC, Caesar had recently ended his term as governor of <b>Gaul</b><sup>1</sup> and ignited a civil war. It was illegal to bring armies into the Italian peninsula. The cards were stacked against him and he was accused of treason. Having popular support anyway, he marched accross the <b>Rubicon River</b><sup>2</sup> -- entering the peninsula -- with an army. Upon doing so, he said quoting <b>Menander</b><sup>3</sup>: <q><i>Alea iacta est</i></q> ("The die is cast.") This action started a civil war against <b>Pompey</b>'s<sup>4</sup> faction of the Roman government.</p>
+        <p>In 49 BC, Caesar had recently ended his term as governor of <b>Gaul</b><sup>1</sup> and ignited a civil war. It was
+        illegal to bring armies into the Italian peninsula. The cards were stacked against him and he was accused of treason.
+        Having popular support anyway, he marched accross the <b>Rubicon River</b><sup>2</sup> -- entering the peninsula --
+        with an army. Upon doing so, he said quoting <b>Menander</b><sup>3</sup>: <q><i>Alea iacta est</i></q> ("The die is
+        cast.") This action started a civil war against <b>Pompey</b>'s<sup>4</sup> faction of the Roman government.</p>
         <img src="http://4.bp.blogspot.com/_8oOej7EOXbY/Sw0OMfNT0oI/AAAAAAAAAAU/fOcF4WndtrA/w1200-h630-p-k-no-nu/20080925184151%21Julius_Caesar_Coustou_Louvre.png"
              alt="A famous sculpture of Caesar by Nicolas Coustou"
              srcset="http://4.bp.blogspot.com/_8oOej7EOXbY/Sw0OMfNT0oI/AAAAAAAAAAU/fOcF4WndtrA/w1200-h630-p-k-no-nu/20080925184151%21Julius_Caesar_Coustou_Louvre.png 1200w"
@@ -28,11 +32,17 @@
             Your browser does not support the <code>video</code> element.</video>
         </figure>
         
-        <p>One of Caesar's greatest military feats was the Battle of Alesia in 52 BC. It was extremely unorthodox. His opponent, Vercingetorix, was holding up in a well defended fort on a hill with reinforcements on the way. Seeing that attacking was suicide, and waiting was also suicide, Caesar ordered his men to cut down thousands of trees. They then built an inverted fort, one with the walls facing the fort they were sieging. Then, they cut thousands more trees, building yet another fort facing the conventional direction. Alesia was thus a fort within an inverted fort within a fort. In this battle, a young officer named Mark Antony, would come to the spotlight and become Caesar's right-hand man, but later in life become his mortal enemy.</p>
+        <p>One of Caesar's greatest military feats was the Battle of Alesia in 52 BC. It was extremely unorthodox. His
+        opponent, Vercingetorix, was holding up in a well defended fort on a hill with reinforcements on the way. Seeing that
+        attacking was suicide, and waiting was also suicide, Caesar ordered his men to cut down thousands of trees. They then
+        built an inverted fort, one with the walls facing the fort they were sieging. Then, they cut thousands more trees,
+        building yet another fort facing the conventional direction. Alesia was thus a fort within an inverted fort within a
+        fort. In this battle, a young officer named Mark Antony, would come to the spotlight and become Caesar's right-hand man,
+        but later in life become his mortal enemy.</p>
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Siege_of_Alesia,_52_BC.gif"
              alt="Map of the Roman entrenchments at the Battle of Alesia, 52 BC"
              srcset="https://upload.wikimedia.org/wikipedia/commons/e/e3/Siege_of_Alesia,_52_BC.gif 744w"
-             sizes="(max width: 744px) 372px, 744px">
+             sizes="(max-width: 744px) 372px, 744px">
     
         <dl>
             <dt><b>Gaul</b></dt>
@@ -46,10 +56,54 @@
             <dt><b></b></dt>
                 <dd><i></i></dd>
         </dl>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>Famous Victories</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Battle</td>
+                    <td>Year</td>
+                    <td>Opponent Countries</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Battle of Magetobriga</td>
+                    <td>63 BC</td>
+                    <td>Suebi, Sequani, Arverni</td>
+                </tr>
+                <tr>
+                    <td>Battle of Alesia</td>
+                    <td>52 BC</td>
+                    <td>Gallic Confederation</td>
+                </tr>
+                <tr>
+                    <td>Battle of the Nile</td>
+                    <td>47 BC</td>
+                    <td>Ptolemaic Egypt</td>
+                </tr>
+                <tr>
+                    <td>Battle of Munda</td>
+                    <td>45 BC</td>
+                    <td>Civil War (Pompeians)</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h3>Join our email list:</h3>
+        <form action="scripts/action.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" required>
+        </form>
 
         <footer>
             <p>Copyright, 2020</p>
         </footer>
     </body>
 </html>
-
