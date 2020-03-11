@@ -2,20 +2,21 @@ body {}
 
 nav {
     color: red;
-    font-size: 1.25em;
+    font-size: 1.75em;
 }
 
 table {
     width: 45%;
 }
 
-th {
+thead {
     border-bottom: 1px;
+    font-size: 1.5em;
     background-color: #000000;
     text-align: center;
 }
 
-tbody, td {
+td {
     border-bottom: 1px solid #000000;
 }
 
@@ -23,4 +24,9 @@ tr:nth-child(odd) {
     background-color: #d9d9d9;
 }
 
-h1 {font-size: 2.75em;}
+p {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h1 {font-size: 3em;}
