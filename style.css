@@ -1,5 +1,26 @@
 body {}
 
-p {
-    color: blue
+nav {
+    color: red;
+    font-size: 1.25em;
 }
+
+table {
+    width: 45%;
+}
+
+th {
+    border-bottom: 1px;
+    background-color: #000000;
+    text-align: center;
+}
+
+tbody, td {
+    border-bottom: 1px solid #000000;
+}
+
+tr:nth-child(odd) {
+    background-color: #d9d9d9;
+}
+
+h1 {font-size: 2.75em;}
