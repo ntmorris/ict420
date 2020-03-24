@@ -9,10 +9,6 @@ table {
     width: 75%;
 }
 
-.glossary {
-    
-}
-
 table > th {
     border: 5px solid black;
 }
@@ -49,6 +45,8 @@ nav > ul > li {
     font-family: arial;
 }
 
+nav > ul > li > a { color: inherit; text-decoration: none; }
+
 
 p {
     margin-left: 150px;
@@ -70,16 +68,17 @@ h2 {
     text-align: center;
 }
 
-a {color: inherit; text-decoration: none;}
+h3 { margin-left: 150px; }
 
-h3 {margin-left: 150px;}
-form {
-    margin-left: 150px
-}
+form { margin-left: 150px; }
 
 footer {
     background: red;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     margin-top: 35px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: yellow;
 }
