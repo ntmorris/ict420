@@ -65,11 +65,20 @@ li:hover {
 p {
     margin-left: 150px;
     margin-right: 150px;
+    font-size: 1.05em;
 }
 
 p::selection {
     background-color: #b30000;
     color: yellow;
+}
+
+img + p {
+    color: red;
+}
+
+#highlight {
+    background-color: red;
 }
 
 h1 {
@@ -88,6 +97,10 @@ h2 {
 }
 
 h3 { margin-left: 150px; }
+
+.highlight {
+    color: red;
+}
 
 form { margin-left: 150px; }
 
