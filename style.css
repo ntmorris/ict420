@@ -73,10 +73,6 @@ p::selection {
     color: yellow;
 }
 
-img + p {
-    color: red;
-}
-
 #highlight {
     background-color: red;
 }
