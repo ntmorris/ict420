@@ -1,11 +1,13 @@
-.nested-wrapper {
+.wrapper1 {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: auto, auto;
 }
 
-.nested-wrapper > div {
-    
+.wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: auto, auto;
 }
 
 body {
