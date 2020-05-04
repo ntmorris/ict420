@@ -1,5 +1,7 @@
 .wrapper1 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto, auto;
 }
 
 .wrapper2 {
